@@ -303,14 +303,12 @@ text-align: left;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(20px);
   border: 2px solid #000000;
-  width: 100%; /* Make sure it takes full width of its parent */
-  height: 100%; /* Allow it to take full height of its parent */
-  min-height: 150px; /* Increase the min-height to a larger value */
-  max-height: 80vh; /* Allow it to grow up to 80% of viewport height */
+  width: 100%;
+  min-height: 150px;
   transition: 0.4s ease-in-out;
   cursor: text;
   resize: none;
-  box-sizing: border-box; /* Ensure padding and border don't affect the width/height */
+  box-sizing: border-box;
   overflow-y: auto;
 }
 
