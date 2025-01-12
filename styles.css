@@ -31,6 +31,7 @@
   body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
   }
 
   .loader{
@@ -518,7 +519,7 @@ transform: scale(1.02);
   }
 
   .timeline::after{
-    left: 31px;
+    left: 12px;
   }
 
   .container{
@@ -551,7 +552,7 @@ transform: scale(1.02);
     position: absolute;
     top: 100%;
     right:0;
-    width:50%;
+    width:100%;
     padding: 1rem 3rem;
     background: rgba(0, 0, 0, 0.8);
     border-bottom-left-radius: 2rem;
