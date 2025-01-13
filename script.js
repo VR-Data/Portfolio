@@ -6,13 +6,13 @@
       tsParticles.load("tsparticles", {
         background: { color: "#001010" },
         particles: {
-          number: { value: 180 },
+          number: { value: 80 },
           size: { value: 4, random: true },
           color: {
             value: ["#FF1000", "#33FF57", "#0057FF"],
             animation: {
               enable: true,
-              speed: 15,
+              speed: 12,
               sync: false
             }
           },
